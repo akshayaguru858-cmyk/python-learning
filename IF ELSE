@@ -1,0 +1,11 @@
+age=20
+if age >= 18:
+    print("You are an adult.")
+    marks=85
+    if marks >= 90:
+        print("You have an A grade.")
+    elif marks >= 80:
+        print("You have a B grade.")
+    else:
+        print("You have a C grade.")
+    

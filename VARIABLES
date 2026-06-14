@@ -1,0 +1,6 @@
+name="Akshaya"
+age="19"
+college="Ethiraj college for women"
+print(name)
+print(age)
+print(college)
