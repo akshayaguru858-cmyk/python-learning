@@ -1,0 +1,7 @@
+student= {
+    "name": "Akshaya",
+    "age": "20"
+}
+print(student)
+print(student["name"])
+print(student["age"])

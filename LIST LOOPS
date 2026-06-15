@@ -1,0 +1,8 @@
+colors=("RED","BLUE","YELLOW")
+for color in colors:
+    print(color)
+print()
+numbers=(10,20,30,40,50)
+for number in numbers:
+    print(number+20)
+    

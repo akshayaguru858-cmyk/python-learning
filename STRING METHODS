@@ -1,0 +1,10 @@
+text="Hello world"
+print(text)
+print(text.upper())
+print(text.lower()) 
+print(text.replace("world", "Python"))
+print(len(text))
+print(text[0:5])  # Slicing the string to get "Hello"
+print(text[6:])  # Slicing the string to get "world"
+sentence="I LOVE PYTHON"
+print(sentence.split())  # Splitting the string into a list of words
