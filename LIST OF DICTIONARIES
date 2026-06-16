@@ -1,0 +1,5 @@
+students =[
+    {"name":"Akshaya", "age":20, "grade":"A"},
+    {"name":"John", "age":22, "grade":"B"},
+    {"name":"Alice", "age":19, "grade":"A"},'
+]

@@ -1,0 +1,8 @@
+import numbers
+
+
+numbers[10,50,40,90,70]
+maximum=max(numbers)
+minimum=min(numbers)
+print("Maximum:"+str(maximum))
+print("Minimum:"+str(minimum))

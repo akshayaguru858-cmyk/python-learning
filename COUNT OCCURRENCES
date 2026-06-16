@@ -1,0 +1,4 @@
+letters=['a','b','a','c','b','a']
+print("Count of 'a':"+str(letters.count('a')))
+print("Count of 'b':"+str(letters.count('b')))
+print("Count of 'c':"+str(letters.count('c')))

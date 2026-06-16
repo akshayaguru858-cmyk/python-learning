@@ -1,0 +1,8 @@
+sentence="I love Python programming"
+word=sentence.split()
+print("words:"+str(word))
+joined= "-".join(word)
+print("Joined with '-':"+joined)
+numbers=[1,2,3,4,5]
+result=",".join(str(num) for num in numbers)
+print("Joined numbers:"+result)

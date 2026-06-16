@@ -1,0 +1,8 @@
+numbers=[1,2,3,4,5]
+print("Original list:"+str(numbers))
+numbers.reverse()
+print("Reversed list:"+str(numbers))
+word="Hello"
+reversed_word=word[::-1]
+print("Original word:"+word)
+print("Reversed word:"+reversed_word)

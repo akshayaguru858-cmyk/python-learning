@@ -1,0 +1,8 @@
+numbers=[50,10,30,40,20]
+print("Original list:"+str(numbers))
+numbers.sort()
+print("Sorted list:"+str(numbers))
+name =["zara","Akshaya","john","alice"]
+print("Original names:"+str(name))
+name.sort()
+print("Sorted names:"+str(name))
