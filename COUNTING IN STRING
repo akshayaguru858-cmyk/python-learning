@@ -1,0 +1,7 @@
+sentence="Python is great.Python is easy.Python is fun."
+print("Sentence:'"+sentence+"'")
+print("Count 'Python':",sentence.count("Python"))
+print("Count 'is':",sentence.count("is"))
+word="dinogdssfg"
+print("Count 'd':",word.count("d"))
+print("Count 'g':",word.count("g"))

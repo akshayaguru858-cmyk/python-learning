@@ -1,0 +1,9 @@
+age=20
+status="Adult"if age>=18 else "child"
+print(status)
+marks=85
+grade="A" if marks>=90 else "B" if marks>=80 else "C" if marks>=70 else "D" if marks>=60 else "F"
+print("Grade:",grade)
+number=15
+result="Even" if number%2==0 else "Odd"
+print("Number is:",result)

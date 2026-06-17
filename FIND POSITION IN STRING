@@ -1,0 +1,8 @@
+sentence="Hello World Python"
+print("Sentence:'"+sentence+"'")
+print("Position of 'World':",sentence.find("World"))
+print("Position of 'Python':",sentence.find("Python"))
+print("Position of 'Java':",sentence.find("Java"))  # Not found, returns -1
+if "Python" in sentence:
+    position=sentence.find("Python")
+    print("Position of 'Python':",position)

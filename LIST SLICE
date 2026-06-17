@@ -1,0 +1,7 @@
+numbers=[10,20,30,40,50,60,70]
+print("full list:",str(numbers))
+print("First 3:"+str(numbers[0:3]))
+print("Last 3:"+str(numbers[4:7]))
+print("Middle 3:"+str(numbers[2:5]))
+print("Every 2nd element:"+str(numbers[0:7:2]))
+print("Reverse list:"+str(numbers[::-1]))

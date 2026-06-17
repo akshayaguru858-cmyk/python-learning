@@ -1,0 +1,8 @@
+x=10
+y="hello"
+z=3.14
+w=[1,2,3]
+print("type of 10:"+str(type(x)))
+print("type of 'hello':" + str(type(y)))
+print("type of 3.14:" + str(type(z)))
+print("type of [1,2,3]:" + str(type(w)))

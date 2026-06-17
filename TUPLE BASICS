@@ -1,0 +1,5 @@
+colors=("red","green","yellow")
+print(colors)
+print(colors[0])  # Accessing first element
+print(colors[1])  # Accessing second element
+print(len(colors))  # Length of the tuple

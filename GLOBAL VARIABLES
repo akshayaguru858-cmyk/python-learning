@@ -1,0 +1,8 @@
+global_var=100
+def function1():
+    print("Inside function1, global_var:",global_var)   
+def function2():
+    print("Inside function2, global_var:",global_var)
+function1()
+function2()
+print("Global variable:"+str(global_var))
