@@ -1,0 +1,8 @@
+fruits={"Apple","Banana","Orange","Apple"}
+print(fruits)
+numbers={1,2,3,4,5,5,5}
+print(numbers)
+fruits.add("Grapes")
+print(fruits)
+fruits.remove("Banana")
+print(fruits)

@@ -1,0 +1,10 @@
+set1={1,2,3,4}
+set2={3,4,5,6}
+print("Set1:", str(set1))
+print("Set2:", str(set2))
+union=set1|set2
+print("Union of Set1 and Set2:", str(union))
+intersection=set1&set2
+print("Intersection of Set1 and Set2:", str(intersection))
+difference=set1-set2
+print("Difference of Set1 and Set2:", str(difference))

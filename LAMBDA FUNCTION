@@ -1,0 +1,9 @@
+square=lambda x:x*x
+print("Square of 5:"+str(square(5)))
+add=lambda x,y:x+y
+print("Addition of 5 and 10:"+str(add(5,10)))
+add=lambda x,y:x*y
+print("5+3="+str(add(5,3)))
+multiply=lambda x,y:x*y
+result=multiply(5,3)
+print("5*3="+str(result))

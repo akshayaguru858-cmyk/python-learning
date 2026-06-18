@@ -1,0 +1,6 @@
+numbers=[1,2,3,4,5]
+squared=list(map(lambda x: x**2, numbers))
+print("Squared numbers:", str(squared))
+print("Original numbers:", str(numbers))
+doubled=list(map(lambda x: x*2, numbers))
+print("Doubled numbers:", str(doubled))

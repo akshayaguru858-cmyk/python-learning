@@ -1,0 +1,7 @@
+numbers=[1,2,3,4,5]
+squared=[x*x for x in numbers]
+print("Squared:"+ str(squared))
+even=[x for x in numbers if x%2==0]
+print("Even numbers:"+ str(even))
+doubled=[x*2 for x in numbers]
+print("Doubled numbers:"+ str(doubled))
