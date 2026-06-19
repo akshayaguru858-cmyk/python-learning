@@ -1,0 +1,8 @@
+file=open("my file.txt","r" )
+content=file.read()
+print(content)
+file.close()
+file=open("my file.txt","r" )
+for line in file:
+    print(line)
+file.close()

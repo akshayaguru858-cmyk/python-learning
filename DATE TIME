@@ -1,0 +1,10 @@
+import datetime
+today = datetime.data.today()
+print("Today: "+str(today))
+current_time = datetime.datetime.now()
+print("Current time: "+str(current_time))
+my_date=datetime.date(2024,6,14)
+print("My date:"+ str(my_date))
+future=datetime.date(2024,6,14)
+difference=future-today
+print("days until year end: "+ str(difference.days))

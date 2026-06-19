@@ -1,0 +1,11 @@
+import json
+student= {
+    "name":"Akshaya",
+    "age":20,
+    "marks":85
+} 
+json_string=json.dumps(student)
+print("JSON: "+ json_string)
+parsed= json.loads(json_string)
+print("Name: "+parsed["name"])
+print("marks: "+ str(parsed["marks"]))
