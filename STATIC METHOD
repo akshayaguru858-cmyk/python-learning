@@ -1,0 +1,9 @@
+class Math:
+    @staticmethod
+    def add(a,b):
+        return a+b
+    @staticmethod
+    def multiply(a,b):
+        return a+b
+print("5+3="+ str(Math.add(5,3)))
+print("5*3="+ str(Math.multiply(5,3)))    

@@ -1,0 +1,11 @@
+class Counter:
+    count=0
+    def __init_(self):
+        Counter.count+=1
+    @classmethod
+    def get_count(cls):
+        return cls.count
+c1=Counter()
+c2=Counter()
+c3=Counter()
+print("Total objects:"+ str(Counter.get_count()))        

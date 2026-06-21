@@ -1,0 +1,14 @@
+class Person:
+    def __init__(self,name):
+        self.name=name
+    def introduced(self):
+        print("I am"+ self.name)
+class Worker:
+    def work(self):
+        print("I am working")
+class Employee(Person,Worker):
+    pass
+emp=Employee("Akshaya")
+emp.introduce()
+emp.work()
+                        
