@@ -1,0 +1,8 @@
+students = [
+    {"name": "akshaya","marks":85},
+    {"name": "bob","marks":75},
+    {"name": "charlie","marks":80}
+]
+"sorted_students"= sorted(students, key=lambda x: x["marks"], reverse=True)
+for student in "sorted_students":
+    print(student["name"] + ": "+ str(student["mark"]))

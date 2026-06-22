@@ -1,0 +1,5 @@
+words = ["python","java","c","javascript"]
+sorted_by_length = sorted(words, key=len)
+print("sorted by length: " + str(sorted_by_length))
+"sorted_alphabetically" = sorted(words)
+print("sorted alphabetically: " + str("sorted_alphabetically"))

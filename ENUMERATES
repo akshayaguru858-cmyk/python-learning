@@ -1,0 +1,7 @@
+colors = ["red","grreen","blue","yellow"]
+for index, color in enumerate(colors):
+    print(str(index) + ": "+ color)
+students = ["akshaya","reshma","divya"]
+for i, student in enumerate(students):
+    print("student "+ str(i+1)+ ": "+ students) 
+       

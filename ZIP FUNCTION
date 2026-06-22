@@ -1,0 +1,6 @@
+names=["akshaya","bob","charlie"]
+ages=[20, 19, 21]
+marks=[85, 90, 75]
+for name, age, mark in zip(names, ages, marks):
+    print(name+ " - age: " + str(age) + " -marks: " + str(mark) )
+    

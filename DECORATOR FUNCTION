@@ -1,0 +1,11 @@
+def greet_decorator(func):
+    def wrapper():
+        print("helo!")
+        func()
+        print("Goodbye!")
+    return wrapper
+@greet_decorator
+def say_name():
+    print("Akshaya")
+say_name()        
+              
