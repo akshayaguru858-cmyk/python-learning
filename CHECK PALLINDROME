@@ -1,0 +1,7 @@
+word = "racecar"
+clean_word = word.replace(" ","").lower()
+if clean_word == clean_word[::-1]:
+    print(word + " is a Palindrome!")
+else:
+    print(word + "is NOT a Palindrome!")
+    

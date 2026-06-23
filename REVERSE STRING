@@ -1,0 +1,9 @@
+word="Python"
+reversed_word = word[::-1]
+print("Reversed: " + reversed_word)
+
+reversed2 = ""
+for char in word:
+    reversed2=char + reversed2
+print("Reversed: " + reversed)
+    

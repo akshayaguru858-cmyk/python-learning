@@ -1,0 +1,7 @@
+a=10
+b=5
+print("Additional: " + str(a+b))
+print("Subtraction: " + str(a-b))
+print("Multiplication: " + str(a*b))
+print("Division: " + str(a/b))
+print("Modulus: " + str(a%b))
