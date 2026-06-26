@@ -1,0 +1,6 @@
+numbers = [1,2,2,3,3,3,4,4,4,4]
+print("Original: " + str(numbers))
+unique = list(set(numbers))
+print("Unique: " + str(unique))
+unique_sorted = sorted(list(set(numbers)))
+print("Sorted unique: " + str(unique_sorted)) 

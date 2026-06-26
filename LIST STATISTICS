@@ -1,0 +1,7 @@
+numbers = [10,20,30,40,50]
+print("Number: " + str(numbers))
+print("Sum: " + str(sum(numbers)))
+print("Average: " + str(sum(numbers) /len(numbers)))
+print("Max: " + str(max(numbers)))
+print("Min: " + str(min(numbers)))
+print("Count: " + str(len(numbers)))

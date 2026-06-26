@@ -1,0 +1,6 @@
+name = input("What is your name? ")
+age= input("What is you age? ")
+year_born = 2024 - int(age)
+print("Hello" + name + "!")
+print("You are" + age + " years old")
+print("You were born around " + str(year_born))

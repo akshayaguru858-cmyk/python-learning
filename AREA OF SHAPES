@@ -1,0 +1,11 @@
+import math
+radius = 5
+area_circle = math.pi * radius * radius
+print("Circle area: " + str(area_circle))
+base= 10
+height= 8
+area_triangle = (base * height) / 2
+print("Triangle area: " + str(area_triangle))
+side = 5
+area_square = side * side
+print("Square area: " + str(area_square))

@@ -1,0 +1,7 @@
+numbers = [50,25,100,5,75]
+largest = numbers[0]
+for num in numbers:
+    if num > largest:
+        largest = num
+print("Largest: " + str(largest))
+print("largest using max(): " + str (max(numbers)))        
