@@ -1,0 +1,4 @@
+item=["apple","banana","orange","mango"]
+print("first: " + "items"[0])
+print("last: "+ "items"[-1])
+print("Total: "+ str(len("items")))

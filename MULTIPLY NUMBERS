@@ -1,0 +1,4 @@
+x=7
+y=8
+product=x*y
+print(str(x)+"x"+str(y)+"="+str(product))

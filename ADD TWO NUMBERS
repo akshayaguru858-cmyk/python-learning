@@ -1,0 +1,4 @@
+a=15
+b=25
+sum_result=a+b
+print(str(a)+"+"+str(b)+"="+str(sum_result))
