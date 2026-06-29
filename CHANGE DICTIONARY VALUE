@@ -1,0 +1,4 @@
+student={"name":"Bob","marks":80}
+print("before:"+str(student))
+student["marks"]=90
+print("After:"+str(student))

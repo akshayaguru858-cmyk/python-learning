@@ -1,0 +1,4 @@
+words=["hello","world","python"]
+sentence="".join(words)
+print("words:"+str(words))
+print("sentence:"+sentence)

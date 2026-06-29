@@ -1,0 +1,4 @@
+info={"name":"akshaya","age":20,"marks":85}
+for key in info:
+    print(key+":"+str(info[key]))
+    

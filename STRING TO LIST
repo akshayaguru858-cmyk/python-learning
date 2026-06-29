@@ -1,0 +1,5 @@
+sentence="i love python"
+words=sentence.split()
+print("sentence:"+sentence)
+print("words: "+str(words))
+print("word count:"+str(len(words)))

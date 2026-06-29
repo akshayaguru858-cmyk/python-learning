@@ -1,0 +1,6 @@
+symbol="*"
+print(symbol*10)
+word="ha"
+print(word*5)
+dash="_"
+print(dash*20)

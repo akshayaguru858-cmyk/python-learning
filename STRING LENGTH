@@ -1,0 +1,5 @@
+text="hello world"
+print("text: "+text)
+print("length:"+str(len(text)))
+print("first char:"+text[0])
+print("last char:"+text[-1])

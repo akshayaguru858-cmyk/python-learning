@@ -1,0 +1,7 @@
+fruits=["apple","banana","orange"]
+if"apple" in fruits:
+   print("apple found!")
+if"mango" in fruits:
+   print("mango found!")
+else:
+   print("mango not found!")      

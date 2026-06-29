@@ -1,0 +1,4 @@
+person={"name":"Akshaya","age":20,"city":"Chennai"}
+print("name:"+person["name"])
+print("Age:"+str(person["age"]))
+print("City:"+person["city"])
